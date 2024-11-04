@@ -1,0 +1,9 @@
+/* css styles */
+.navbar {
+    background-color: #9d8189; 
+  }
+
+.nav-link.active {
+    color: #e3d5ca !important; /* Replace with your desired color */
+    font-weight: bold; /* Optional: Make it bold for emphasis */
+  }
