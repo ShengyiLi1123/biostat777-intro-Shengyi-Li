@@ -1,0 +1,32 @@
+---
+title: "Shengyi Li"
+title-align: center
+format: 
+  html:
+    html-math-method: katex
+    codetools:
+      code-block-border-left: "#31BAE9"
+      code-block-bg: whitesmoke
+image: profile.jpg
+toc: false
+about: 
+  template: jolla
+  image-shape: rectangle
+  image-width: 12em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/shengyi-l-7b358324b/
+    - icon: github
+      text: GitHub
+      href: https://github.com/ShengyiLi1123
+    - icon: envelope
+      text: Email
+      href: mailto:shengyili1123@gmail.com
+editor:
+    render-on-save: true
+
+
+---
+
+Hi, my name is Shengyi. I'm a first year master in Biostatistics at Johns Hopkins University. My research interests lie in developing statistical tools to solve health-related problems. My hobbies are skating and sudoku.

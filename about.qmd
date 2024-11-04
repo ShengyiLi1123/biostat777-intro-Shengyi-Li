@@ -1,0 +1,22 @@
+---
+title: "About Me"
+format: html
+editor: 
+    render-on-save: true
+---
+
+On this page, I will share more about myself.
+
+## Bio
+I am deeply passionate about exploring the complexities of statistics and applying my expertise to public health and biomedical challenges. My current interests focus on applying and developing statistical methods to advance precision medicine and uncover the determinants of social health inequalities.
+
+
+## Education
+Johns Hopkins University| Maryland, US  
+ScM in Biostatistics| Sept 2024 - May 2026  
+
+University of Nottingham| Nottingham, UK  
+BSc Hons Statistics| Sept 2022 - June 2024
+
+University of Nottingham| Ningbo, China  
+BSc Hons Statistics| Sept 2020 - June 2022
