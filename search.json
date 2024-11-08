@@ -60,7 +60,7 @@
     "href": "example_analysis.html#summary",
     "title": "Example Analysis",
     "section": "Summary",
-    "text": "Summary\n\nIn 1988, the percentage of Swiss males employed in agriculture varied significantly across provinces, generally ranging between 20% and 70%.\nThis percentage had minimal impact on the average infant mortality and fertility rates; however, the first and third quartiles of fertility rates showed a gradual increase as this percentage rose.\nEducated male percentages were positively correlated with draftees’ performance on the military exam, and these two are negatively correlated with fertility rates.\nDraftees from provinces with lower percentages of males in agriculture tended to perform better on the military exam."
+    "text": "Summary\n\nIn 1988, the percentage of Swiss males employed in agriculture varied significantly across provinces, generally ranging between 20% and 70%.\nThis percentage had minimal impact on the average infant mortality and fertility rates; however, the first and third quartiles of fertility rates showed a gradual increase as this percentage rose.\nDraftees from provinces with lower percentages of males in agriculture tended to perform better on the military exam.\nEducated male percentages were positively correlated with draftees’ performance on the military exam, and these two are negatively correlated with fertility rates."
   },
   {
     "objectID": "example_analysis.html#function-used",
