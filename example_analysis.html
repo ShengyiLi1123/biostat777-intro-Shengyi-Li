@@ -226,7 +226,7 @@ div.csl-indent {
 </section>
 <section id="question" class="level2">
 <h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>What was the association between standardized socioeconomic indicators and fertility rates across various French-speaking provinces of Switzerland around 1888?</p>
+<p>What was the association between standardized socioeconomic indicators and fertility measures across various French-speaking provinces of Switzerland around 1888?</p>
 </section>
 <section id="intended-audience" class="level2">
 <h2 class="anchored" data-anchor-id="intended-audience">Intended Audience</h2>
@@ -234,11 +234,11 @@ div.csl-indent {
 </section>
 <section id="data" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>This dataset contains standardized socioeconomic indicators and fertility rates for 47 Swiss French-speaking provinces in about 1888 <span class="citation" data-cites="a2024_r">(<a href="#ref-a2024_r" role="doc-biblioref"><span>“R: Swiss Fertility and Socioeconomic Indicators (1888) Data”</span> 2024</a>)</span>. It has a high research value, as Switzerland experienced a demographic transition in 1988, during which its fertility rates started declining from the levels typical of developing countries <span class="citation" data-cites="mosteller1977data">(<a href="#ref-mosteller1977data" role="doc-biblioref">Mosteller 1977</a>)</span>.</p>
+<p>This dataset contains standardized socioeconomic indicators and fertility measures for 47 Swiss French-speaking provinces in about 1888 <span class="citation" data-cites="a2024_r">(<a href="#ref-a2024_r" role="doc-biblioref"><span>“R: Swiss Fertility and Socioeconomic Indicators (1888) Data”</span> 2024</a>)</span>. It has a high research value, as Switzerland experienced a demographic transition in 1988, during which its fertility rates started declining from the levels typical of developing countries <span class="citation" data-cites="mosteller1977data">(<a href="#ref-mosteller1977data" role="doc-biblioref">Mosteller 1977</a>)</span>.</p>
 <section id="data-source" class="level3">
 <h3 class="anchored" data-anchor-id="data-source">Data Source</h3>
 <p>It is a built-in dataset in R, and its documentation manual is published by ETH Zurich <span class="citation" data-cites="a2024_r">(<a href="#ref-a2024_r" role="doc-biblioref"><span>“R: Swiss Fertility and Socioeconomic Indicators (1888) Data”</span> 2024</a>)</span>.</p>
-<div class="callout callout-style-simple callout-note">
+<div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -379,10 +379,10 @@ div.csl-indent {
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>category_data <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span>Agriculture_group,<span class="at">y=</span>Fertility))<span class="sc">+</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Groups by percentage of males in agriculture"</span>, </span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Fertility rate"</span>, </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Fertility measures"</span>, </span>
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Agriculture_group"</span>,</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Boxplot of fertility rates by different agricultural employment levels"</span>,</span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Sistributions of fertility rates among the three groups are similar"</span>,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Boxplot of fertility measures by different agricultural employment levels"</span>,</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Distributions of fertility measures among the three groups are similar"</span>,</span>
 <span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Plotted by Shengyi Li"</span>)<span class="sc">+</span></span>
 <span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>(<span class="at">base_family =</span> <span class="st">"Times"</span>)<span class="sc">+</span></span>
 <span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">15</span>,<span class="at">hjust=</span><span class="fl">0.5</span>),</span>
@@ -397,8 +397,8 @@ div.csl-indent {
 </div>
 </div>
 </div>
-<p>As the percentage of males employed in agriculture increases, the mean fertility rate remains relatively stable; however, both the first quartile (Q1) and third quartile (Q3) within each group show a gradual increase. And outliers are more evident in the group with a low percentage of males employed in agriculture.</p>
-<p>We also examine how the percentage of males employed in agriculture affects the average infant mortality rate.</p>
+<p>As the percentage of males employed in agriculture increases, the mean fertility measures remains relatively stable; however, both the first quartile (Q1) and third quartile (Q3) within each group show a gradual increase. And outliers are more evident in the group with a low percentage of males employed in agriculture.</p>
+<p>We also examine how the percentage of males employed in agriculture affects the average infant mortality measures.</p>
 <div class="cell page-columns page-full">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>category_data <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(Agriculture_group) <span class="sc">%&gt;%</span></span>
@@ -440,7 +440,7 @@ div.csl-indent {
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_gradient</span>(<span class="at">low =</span> <span class="st">"lightblue"</span>, <span class="at">high =</span> <span class="st">"darkblue"</span>)<span class="sc">+</span></span>
 <span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y=</span><span class="st">"Fertility measure"</span>,</span>
 <span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">'Scatter plot of Fertility vs Education by agriculture groups,  </span><span class="sc">\n</span><span class="st"> Colored by Examination performance'</span>,</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle=</span><span class="st">"Fertility rate is negatively correlated with education level and examination performance"</span>,</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle=</span><span class="st">"Fertility measure is negatively correlated with Educ. level and examination performance"</span>,</span>
 <span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">"Plotted by Shengyi Li"</span>)<span class="sc">+</span></span>
 <span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>(<span class="at">base_family =</span> <span class="st">"Times"</span>)<span class="sc">+</span></span>
 <span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">15</span>,<span class="at">hjust=</span><span class="fl">0.5</span>),</span>
@@ -455,16 +455,16 @@ div.csl-indent {
 </div>
 </div>
 </div>
-<p>We observe that, across all provinces, fertility rates are generally above 50, while the percentages of education are typically below 20, and the proportion of high scores on exams is usually under 35. Additionally, provinces with lower education levels tend to perform worse on examinations and exhibit higher fertility rates. In groups with low percentages of males employed in agriculture, draftees are more likely to achieve the highest scores on the military exam.</p>
+<p>We observe that, across all provinces, fertility measures were generally above 50, while education percentages were typically below 20, and the proportions of high exam scores were usually under 35. Additionally, provinces with lower education levels tended to perform worse on examinations and exhibited higher fertility measures. In groups with low percentages of males employed in agriculture, draftees were more likely to achieve the highest scores on the military exam.</p>
 </section>
 </section>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <ol type="1">
 <li>In 1988, the percentage of Swiss males employed in agriculture varied significantly across provinces, generally ranging between 20% and 70%.</li>
-<li>This percentage had minimal impact on the average infant mortality and fertility rates; however, the first and third quartiles of fertility rates showed a gradual increase as this percentage rose.</li>
+<li>This percentage had minimal impact on the average infant mortality and fertility measures; however, the first and third quartiles of fertility measures showed a gradual increase as this percentage rose.</li>
 <li>Draftees from provinces with lower percentages of males in agriculture tended to perform better on the military exam.</li>
-<li>Educated male percentages were positively correlated with draftees’ performance on the military exam, and these two are negatively correlated with fertility rates.</li>
+<li>Educated male percentages were positively correlated with draftees’ performance on the military exam, and these two are negatively correlated with fertility measures.</li>
 </ol>
 </section>
 <section id="function-used" class="level2">
