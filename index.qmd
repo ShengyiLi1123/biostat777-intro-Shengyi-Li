@@ -29,4 +29,4 @@ editor:
 
 ---
 
-Hi, my name is Shengyi. I'm a first year master in Biostatistics at Johns Hopkins University. My research interests lie in developing statistical tools to solve health-related problems. My hobbies are skating and sudoku.
+Hi, my name is Shengyi. I'm a first year master student in Biostatistics at Johns Hopkins University. My research interests lie in developing statistical tools to solve health-related problems. My hobbies are skating and sudoku.

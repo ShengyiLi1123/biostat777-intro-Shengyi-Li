@@ -30,10 +30,10 @@ I will perform a data analysis on this page using the Swiss dataset in R.
 What was the association between standardized socioeconomic indicators and fertility rates across various French-speaking provinces of Switzerland around 1888?
 
 ## Intended Audience
-Historian and lover of Swedish history.
+Historian and lover of Swiss history.
 
 ## Data
-This dataset contains standardized socioeconomic indicators and fertility rates for 47 Swiss French-speaking provinces in about 1888. It has a high research value, as Switzerland experienced a demographic transition in 1988, during which its fertility rates started declining from the levels typical of developing countries [@mosteller1977data].
+This dataset contains standardized socioeconomic indicators and fertility rates for 47 Swiss French-speaking provinces in about 1888 [@a2024_r]. It has a high research value, as Switzerland experienced a demographic transition in 1988, during which its fertility rates started declining from the levels typical of developing countries [@mosteller1977data].
 
 
 ### Data Source
