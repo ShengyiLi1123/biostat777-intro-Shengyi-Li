@@ -343,7 +343,7 @@ div.csl-indent {
 </div>
 </div>
 <p>We notice that variables <code>Agriculture</code> and <code>Catholic</code> had large discrepancies across provinces, while others exhibited less variation.</p>
-<p>We then investigate the association between male agricultural employment levels and fertility.</p>
+<p>We then investigate the association between male agricultural employment levels and fertility measures.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(dplyr))</span>
@@ -367,7 +367,7 @@ div.csl-indent {
 </div>
 </div>
 </div>
-<p>Due to the wide range of <code>Agriculture</code> and similar frequencies across bins, we divided it into three categories—low, medium, and high—to examine its association with fertility.</p>
+<p>Due to the wide range of <code>Agriculture</code> and similar frequencies across bins, we divided it into three categories—low, medium, and high—to examine its association with fertility measures.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>category_data <span class="ot">&lt;-</span> swiss <span class="sc">%&gt;%</span> </span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Agriculture_group =</span> <span class="fu">cut</span>(Agriculture,</span>
