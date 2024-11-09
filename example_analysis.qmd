@@ -70,7 +70,7 @@ summary(swiss)
 
 We notice that variables `Agriculture` and `Catholic` had large discrepancies across provinces, while others exhibited less variation.
 
-We then investigate the association between male agricultural employment levels and fertility.
+We then investigate the association between male agricultural employment levels and fertility measures.
 
 ```{r agriculture_his}
 library(ggplot2)
@@ -89,7 +89,7 @@ swiss %>% ggplot(aes(x=Agriculture)) +
   axis.title.y = element_text(size=12))
 ```
 
-Due to the wide range of `Agriculture` and similar frequencies across bins, we divided it into three categories—low, medium, and high—to examine its association with fertility.
+Due to the wide range of `Agriculture` and similar frequencies across bins, we divided it into three categories—low, medium, and high—to examine its association with fertility measures.
 
 ```{r agriculture_threecat}
 category_data <- swiss %>% 
